@@ -1,0 +1,33 @@
+body{
+  background-color: aliceblue;
+}
+ul{
+  list-style: none;
+}
+.hover .card:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.card{
+  border-radius: 20px;
+}
+.card-img-top {
+    border-radius: 20px;
+}
+.card-body {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.card-title{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.btnSpanEliminar{
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.indice{
+  color: white;
+}
+
